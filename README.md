@@ -19,6 +19,17 @@ Ionic 3, Angular 5, Firebase and Google Maps Location Tracking - Create Credenti
 
 Write down the key on a notepad or any text editor, because we will use it later on the app.
 
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+Declare a constant variable for holds Firebase setting before `@NgModule`.
+
+const config = {
+  apiKey: 'YOUR_APIKEY',
+  authDomain: 'YOUR_AUTH_DOMAIN',
+  databaseURL: 'YOUR_DATABASE_URL',
+  projectId: 'YOUR_PROJECT_ID',
+  storageBucket: 'YOUR_STORAGE_BUCKET',
+};
 
 This source code is part of [Ionic 3, Angular 5, Firebase and Google Maps Location Tracking](https://www.djamware.com/post/5a48517280aca7059c142972/ionic-3-angular-5-firebase-and-google-maps-location-tracking) tutorial. If you think this source useful, you can simply give it star or just buy me a cup of cofee [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q5WK24UVWUGBN).
 
